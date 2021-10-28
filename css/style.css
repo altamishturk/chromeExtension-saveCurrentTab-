@@ -1,0 +1,75 @@
+/* google font cdn  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* styling for every element  */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* variables  */
+:root {
+  --main-color: green;
+}
+
+body {
+  min-width: 400px;
+  background-color: aliceblue;
+}
+
+#input-el {
+  width: 98%;
+  margin: 10px auto;
+  display: block;
+  padding: 5px 10px;
+  border: 2px solid var(--main-color);
+}
+
+.invalid_popup {
+  display: block;
+  color: red;
+  margin: 10px 1.2%;
+  display: none;
+}
+
+.input-btn {
+  margin-left: 1%;
+  border-radius: 0;
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  padding: 9px 25px;
+  cursor: pointer;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.input-btn:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+#delete_all:hover {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.hr {
+  margin: 25px 0px;
+  height: 2px;
+  border: none;
+  background-color: var(--main-color);
+}
+
+.data-container-heding {
+  color: var(--main-color);
+}
+
+.data-container {
+  list-style-type: decimal;
+  padding-left: 5.2%;
+  font-size: 20px;
+}
+
+.data-container a {
+  color: var(--main-color);
+}
